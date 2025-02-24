@@ -1,5 +1,5 @@
 // objeto do usuário
-const usuario = { nome: "Raphael", matricula: "123456", pendencia: false, acessibilidade: true };
+const usuario = { nome: "Lucca", matricula: "1949", pendencia: false, acessibilidade: true };
 
 // lista objetos de armários
 const armarios = [
@@ -48,7 +48,7 @@ function reservarArmario() {
   // Impmimimos uma mensagem de reserva para o usuário.
   document.getElementById("resultado").innerText = `Olá, ${usuario.nome}!  
             O armário ${armarioSorteado.id} foi reservado com sucesso!
-            A entrega das chaves deve ser feita até ${dataHoraEntregaFormatada}.`
+            A entrega das chaves deve ser feita até ${dataHoraEntrega}.`
             ;
 
   console.log(usuario);
